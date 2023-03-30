@@ -1,5 +1,6 @@
 package cn.gyp.chatbot.api.test;
 
+import cn.gyp.chatbot.api.domain.ai.IOpenAI;
 import cn.gyp.chatbot.api.domain.zsxq.IZsxqApi;
 import cn.gyp.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
 import cn.gyp.chatbot.api.domain.zsxq.model.vo.Topics;
@@ -28,6 +29,8 @@ public class SpringBootRunTest {
 
     @Resource
     private IZsxqApi zsxqApi;
+    @Resource
+    private IOpenAI openAI;
 
     @Test
     public void test_zsxqApi() throws IOException {
