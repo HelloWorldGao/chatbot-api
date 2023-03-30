@@ -2,5 +2,5 @@ server:
   port: 8090
 chatbot-api:
   groupId: 51112155528824
-  cookie: zsxq_access_token=FC18685C-E92D-C144-7A29-C7B9538A36E1_09A9AB306DE08273; abtest_env=product; sensorsdata2015jssdkcross={"distinct_id":"815145848488142","first_id":"1872ba60a1211ae-056c04c69e96288-26031951-3686400-1872ba60a1311cb","props":{},"identities":"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3MmJhNjBhMTIxMWFlLTA1NmMwNGM2OWU5NjI4OC0yNjAzMTk1MS0zNjg2NDAwLTE4NzJiYTYwYTEzMTFjYiIsIiRpZGVudGl0eV9sb2dpbl9pZCI6IjgxNTE0NTg0ODQ4ODE0MiJ9","history_login_id":{"name":"$identity_login_id","value":"815145848488142"},"$device_id":"1872ba60a1211ae-056c04c69e96288-26031951-3686400-1872ba60a1311cb"}; zsxqsessionid=b576bcb53246899804555dd5693a0533
-  openAiKey: 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
+  cookie:
+  openAiKey:
